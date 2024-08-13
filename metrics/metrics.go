@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	kbd "kbanalysis/keyboard"
+	kbd "kbannealing/keyboard"
 )
 
 type Metric func(*kbd.Keyboard, *kbd.CharFreq) int

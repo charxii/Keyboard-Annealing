@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	kbd "kbanalysis/keyboard"
+	kbd "kbannealing/keyboard"
 	"testing"
 )
 

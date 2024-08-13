@@ -2,7 +2,7 @@ package keyboard
 
 import (
 	"fmt"
-	utils "kbanalysis/utils"
+	utils "kbannealing/utils"
 	"math/rand"
 	"slices"
 	"strings"

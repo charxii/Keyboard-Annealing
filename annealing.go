@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	kb "kbanalysis/keyboard"
-	m "kbanalysis/metrics"
+	kb "kbannealing/keyboard"
+	m "kbannealing/metrics"
 	"math"
 	"math/rand"
 	"strings"

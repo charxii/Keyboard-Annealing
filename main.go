@@ -4,8 +4,8 @@ import (
 	"cmp"
 	"flag"
 	"fmt"
-	kbd "kbanalysis/keyboard"
-	m "kbanalysis/metrics"
+	kbd "kbannealing/keyboard"
+	m "kbannealing/metrics"
 	"slices"
 	"strings"
 )
