@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func sorted_keys[K cmp.Ordered, T any](dict map[K]T) []K {
+func SortedKeys[K cmp.Ordered, T any](dict map[K]T) []K {
 	keys := make([]K, 0, len(dict))
 
 	for k := range dict {
@@ -139,7 +139,7 @@ func main() {
 		keyboards[name] = kb
 	}
 
-	order := sorted_keys(keyboards)
+	order := SortedKeys(keyboards)
 	ProcessStats(keyboards, cf, order)
 
 	fmt.Println(strings.Repeat("-", 65))
